@@ -5,8 +5,9 @@ import store from './store'
 import vuetify from './plugins/vuetify'
 import vuescroll from 'vuescroll'
 import axios from 'axios'
+import VueAxios from 'vue-axios'
 
-Vue.use(axios)
+Vue.use(VueAxios, axios)
 Vue.use(vuescroll)
 
 Vue.config.productionTip = false
