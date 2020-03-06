@@ -153,7 +153,6 @@
 	@font-face
 		font-family: 'Rajdhani-Bold'
 		src: url('~@/assets/fonts/Rajdhani-Bold.ttf')
-		
 	@font-face
 		font-family: 'Rajdhani-Medium'
 		src: url('~@/assets/fonts/Rajdhani-Medium.ttf')

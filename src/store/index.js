@@ -41,15 +41,8 @@ export default new Vuex.Store({
 		getTableData: ({ commit }) => {
 			axios
 				.get('https://jsonplaceholder.typicode.com/users')
-				.then(response => {
-					//this.info = response.data
-					console.log(response)
-					commit("SET_TABLE_DATA", response.data)
-					
-				})
-				.catch(error => {
-					console.log(error)
-				})
+				.then(response => {commit("SET_TABLE_DATA", response.data)})
+				.catch(error => {console.log(error)})
 		}
 	},
 	modules: {
